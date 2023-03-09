@@ -1,0 +1,11 @@
+:root {
+    --color-orange: #F79E0E;
+    --color-dark-blue: #0F124D;
+    --color-light-blue: #262A4E;
+}
+
+html{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
