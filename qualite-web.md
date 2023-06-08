@@ -40,6 +40,16 @@ Dans quel cas cela aide l'utilisateur ?
 
 Description des images trop minimes, une description plus clair de l'image permet aux aveugles d'avoir plus d'informations
 
+### A11Y - Amélioration 4
+
+Description de votre amélioration:
+
+Sticky menu
+
+Dans quel cas cela aide l'utilisateur ?
+
+Le sticky menu aide à la naviguation de l'utilisateur, car il n'a pas à remonter toujours en haut de page
+
 ---
 
 ## Performance
