@@ -58,20 +58,34 @@ Le sticky menu aide à la naviguation de l'utilisateur, car il n'a pas à remont
 
 - Taille globale de votre page.
 
+La largeur de la page est de 100% avec un maximum de 1200px.
+
 - Répartition entre les différents contenus (images, fontes, html/css/js...)
 
+Les différents contenus sont repartis dans différents dossiers. Les images, les icônes, la doc, le javascript, le css et le html sont tous séparés.
+
 - Vitesse de chargement
+
+La vitesse de chargement est de 292ms
 
 ### Performance - Amélioration 1
 
 Description + Pourquoi faire cette amélioration? (2 pts)
 
+Avoir les fichiers de fonts et de les mettre directement dans mon projet, malheureusement je ne sais pas comment le faire.
+
 Indiquer le gain de performance mesuré (1 pt)
+
+jsp
 
 ### Performance - Amélioration 2
 
 Description + Pourquoi faire cette amélioration? (2 pts)
 
+Les fichiers images sont déjà en svg, si les images étaient au format png j'aurai pu les mettre au format jpg.
+
 Indiquer le gain de performance mesuré (1 pt)
+
+-
 
 ---
