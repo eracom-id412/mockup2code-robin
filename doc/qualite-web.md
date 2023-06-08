@@ -34,7 +34,7 @@ La visibilté des liens aide l'utilisateur à ne rater aucuns liens et distingue
 
 Description de votre amélioration:
 
-Amélioer la déscription des images
+Améliorer la déscription des images
 
 Dans quel cas cela aide l'utilisateur ?
 
