@@ -137,24 +137,37 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
-.menu {
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.menu-links {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
-.menu a {
+#menu a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     transition: transform .25s;
 }
 
-.menu a:hover {
+#menu a:hover {
     transform: scale(1.2);
     color: #F79E0E;
     text-decoration: underline;
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
 }
 
 .underline {
@@ -172,6 +185,18 @@ button:hover {
     gap: 30px;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.px-80 {
+    padding: 0 80px;
+}
+
 .py-80 {
     padding: 80px 0;
 }
@@ -182,6 +207,10 @@ button:hover {
 
 .pb-80 {
     padding-bottom: 80px;
+}
+
+.w-64 {
+    width: 32px;
 }
 
 .gap-100 {
@@ -200,5 +229,32 @@ button:hover {
     
     .cols-5 {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        z-index: 888;
+        background-color: var(--color-dark-blue);
+        padding: 30px 0;
+    }
+
+    #menu, .menu-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #menu.show {
+        display: flex;
+    }
+
+    #hamburger {
+        display: block;
     }
 }
