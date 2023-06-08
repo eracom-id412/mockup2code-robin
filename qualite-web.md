@@ -30,6 +30,16 @@ Dans quel cas cela aide l'utilisateur ? (2 pts)
 
 La visibilté des liens aide l'utilisateur à ne rater aucuns liens et distinguer ceux-ci par rapport au contenu texte standard.
 
+### A11Y - Amélioration 3
+
+Description de votre amélioration:
+
+Amélioer la déscription des images
+
+Dans quel cas cela aide l'utilisateur ?
+
+Description des images trop minimes, une description plus clair de l'image permet aux aveugles d'avoir plus d'informations
+
 ---
 
 ## Performance
