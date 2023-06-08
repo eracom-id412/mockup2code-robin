@@ -18,6 +18,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     background-color: var(--color-dark-blue);
 }
@@ -66,7 +70,6 @@ h4 {
 
 .fs-21{
     font-size: 21px;
-    text-decoration: underline;
 }
 
 .fs-12 {
@@ -136,11 +139,12 @@ button:hover {
 
 .menu a:hover {
     transform: scale(1.2);
+    color: #F79E0E;
+    text-decoration: underline;
 }
 
-a.underline {
-    font-size: 21px;
-    color: var(--color-orange);
+.underline {
+    text-decoration: underline;
 }
 
 .cols-2 {
@@ -160,4 +164,9 @@ a.underline {
 
 .gap-100 {
     gap: 100px;
+}
+
+.link:hover {
+    color: #F79E0E;
+    text-decoration: underline;
 }
