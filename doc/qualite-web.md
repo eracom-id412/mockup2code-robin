@@ -10,6 +10,14 @@ Améliorations en A11Y et Performance.
 
 Listez et expliquez les problèmes d'accessibilité que vous avez détecté sur votre page.
 
+1. non responsive
+
+2. liens différents et pas très visible
+
+3. la description des images est faible
+
+4. pas de sticky menu en mode responsive
+
 ### A11Y - Amélioration 1
 
 Description de votre amélioration: (2 pts)
@@ -58,7 +66,7 @@ Le sticky menu aide à la naviguation de l'utilisateur, car il n'a pas à remont
 
 - Taille globale de votre page.
 
-La largeur de la page est de 100% avec un maximum de 1200px.
+1.12 Mo - 1 178 059 octets
 
 - Répartition entre les différents contenus (images, fontes, html/css/js...)
 
@@ -66,17 +74,17 @@ Les différents contenus sont repartis dans différents dossiers. Les images, le
 
 - Vitesse de chargement
 
-La vitesse de chargement est de 292ms
+La vitesse de chargement est de 367 ms
 
 ### Performance - Amélioration 1
 
 Description + Pourquoi faire cette amélioration? (2 pts)
 
-Avoir les fichiers de fonts et de les mettre directement dans mon projet, malheureusement je ne sais pas comment le faire.
+Avoir les fichiers de fonts en local, afin que mon site évite de rechercher les fonts sur google fonts.
 
 Indiquer le gain de performance mesuré (1 pt)
 
-jsp
++14% sur le site pages.speed.web.dev 
 
 ### Performance - Amélioration 2
 
